@@ -15,7 +15,7 @@ Proof of concept test module that allows various ingame UI elements to be toggle
 ## How to use
 Requires [Bad GUI](https://github.com/codeagon/badGui/) to function, make sure you have it installed before complaining to me that it doesn't work. Please also note that this probably wont work too well on KR.
 
-Install the module like normal and type `gc` int proxy chat.
+Install the module like normal and type `gc` into proxy chat.
 
 ## Note to devs:
 Pls figure out how to access and pass arguments to functions from files other than base and the element the href is clicked on and I'll give you all my gold.
