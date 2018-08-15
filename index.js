@@ -18,12 +18,22 @@ module.exports = function (mod) {
 		{ text: `<a href=\'asfunction:_root.ShowUI,ExpBar'>[XP Bar ON]</a>&#09;&#09;<a href=\'asfunction:_root.HideUI,ExpBar'>[XP Bar OFF]</a><br>` },
 		{ text: `<a href=\'asfunction:_root.ShowUI,GageBar'>[Skill Charge Bar ON]</a>&#09;&#09;<a href=\'asfunction:_root.HideUI,GageBar'>[Skill Charge Bar OFF]</a><br>` },
 		{ text: `<a href=\'asfunction:_root.ShowUI,SkillHotKey'>[Skill Chain Popup ON]</a>&#09;&#09;<a href=\'asfunction:_root.HideUI,SkillHotKey'>[Skill Chain Popup OFF]</a><font size="+14"> - NOTE: You can still activate them with the key</font><br>` },
-		//{ text: `<a href=\'asfunction:_root.ShowUI,GageBoss'>[Boss HP Bar ON]</a>&#09;&#09;<a href=\'asfunction:_root.HideUI,GageBoss'>[Boss HP Bar OFF]</a><br>` },// just turns back on right after rip
+		{ text: `<br><br>Others(unloading)`, command: `gc2` },
+		//
 		{ text: `<br><br><br><font color="#e6ee9c">Proof of concept module(s), feel free to make suggestions/add code on the github page! </font>` }
-		//{ text: `<a href=\'asfunction:_root.LoadUI,Chat2'>[Chat ON]</a>&#09;&#09;<a href=\'asfunction:_root.UnLoadUI,Chat2'>[Chat OFF]</a>Probably don't do this?<br>` },
+	]
+	let data2 = [//Data 2 the squeekquel
+		{ text: `<font color="#dcc856" size="+26">UNLOAD UI Elements:<br><font size="+14"> These require a restart to toggle back on<br><font color="#4dd0e1" size="+18">` },
+		{ text: `<a href=\'asfunction:_root.UnLoadUI,Chat2'>[Chat OFF]</a>Probably don't do this?<br>` },
+		{ text: `<a href=\'asfunction:_root.UnLoadUI,GageBoss'>[Boss HP Bar OFF]</a><br>` },
+		{ text: `<br><br>Back to main page`, command: `gc` },
+		{ text: `<br><br><br><font color="#e6ee9c">Proof of concept module(s), feel free to make suggestions/add code on the github page! </font>` }
 	]
 	mod.command.add('gc', () => {
 		gui.parse(data, 'GUI Controller Thing')
+	})
+	mod.command.add('gc2', () => {
+		gui.parse(data2, 'GUI Controller Thing')
 	})
 	this.destructor = () => {
 		mod.command.remove('gc');
