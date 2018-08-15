@@ -1,3 +1,5 @@
 {
+	"servers": ["https://raw.githubusercontent.com/codeagon/GUI-Controller/master/"],
+	"supportUrl": "https://discord.gg/uhDAXWQ",
 	"disableAutoUpdate": false
 }
