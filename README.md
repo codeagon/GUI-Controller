@@ -4,7 +4,7 @@ GUI Controller Interface
 
 [![Discord](https://discordapp.com/api/guilds/385946679733518338/widget.png)](https://discord.gg/dzB7xZK)
 
-![wpw](https://i.imgur.com/f7mMfSy.png)
+![wpw](https://i.imgur.com/CANGob3.png)
 ****
 [pls giv monei](https://ko-fi.com/codeagon)
 ****
