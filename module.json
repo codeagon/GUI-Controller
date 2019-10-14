@@ -1,5 +1,20 @@
 {
-	"servers": ["https://raw.githubusercontent.com/codeagon/GUI-Controller/master/"],
+	"servers": [
+		"https://raw.githubusercontent.com/codeagon/GUI-Controller/master/"
+	],
 	"supportUrl": "https://discord.gg/uhDAXWQ",
-	"disableAutoUpdate": false
+	"disableAutoUpdate": true,
+	"name": "GUICI",
+	"author": "Pentagon",
+	"description": "Allows you to toggle on and off various UI elements",
+	"version": "6.69a",
+	"options": {
+		"niceName": "GUICI",
+		"guiName": "GUICI - GUI Controller Interface",
+		"reloadable": true
+	},
+	"donationUrl": "https://ko-fi.com/codeagon",
+	"dependencies": {
+		"badGUI": "https://github.com/codeagon/badGui"
+	}
 }

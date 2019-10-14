@@ -10,12 +10,15 @@ GUI Controller Interface
 ****
 
 ## What this module does
-Proof of concept test module that allows various ingame UI elements to be toggled on and off without requiring GPK modding.
+Proof of concept test module that allows various ingame UI elements to be toggled on and off without requiring GPK modding. Now also allows changing of character window things like changing your name, laurel, class, etc.
+
+
+
+More to come.
 
 ## How to use
-Requires [Bad GUI](https://github.com/codeagon/badGui/) to function, make sure you have it installed before complaining to me that it doesn't work. Please also note that this probably wont work too well on KR.
+Requires [Bad GUI](https://github.com/codeagon/badGui/) to function, make sure you have it installed before complaining to me that it doesn't work. 
 
 Install the module like normal and type `gc` into proxy chat.
 
-## Note to devs:
-Pls figure out how to access and pass arguments to functions from files other than base and the element the href is clicked on and I'll give you all my gold.
+
