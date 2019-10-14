@@ -3,7 +3,7 @@
 		"https://raw.githubusercontent.com/codeagon/GUI-Controller/master/"
 	],
 	"supportUrl": "https://discord.gg/uhDAXWQ",
-	"disableAutoUpdate": true,
+	"disableAutoUpdate": false,
 	"name": "GUICI",
 	"author": "Pentagon",
 	"description": "Allows you to toggle on and off various UI elements",
